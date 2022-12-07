@@ -47,21 +47,21 @@ bot_adi = ""
 if hex(getnode()) in ["0xdc7b23bb434e"]: #windows masaüstü pc ise veya laptop
     #kaç yaşındasın bot
     print("kyb")
-    bot_adi = "kacyasindasin_bot"
-    bot_token = "5291857870:AAGX7ufhwb0E6seRgriSYhs-sTnq1XVWfIg"
+    bot_adi = "İnek Kelime Bot"
+    bot_token = "5671215128:AAFFx0mWkXcWGzzO5s-elPUrWmm0Iqcwvmw"
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 else:
     #sıl kelime bot
-    bot_adi = "BestGameeBot"
-    bot_token = "5286573370:AAGucfj3sdkSVIkLO7P9RlRbnL6wIhyoQlc"
+    bot_adi = "İnek Kelime Bot"
+    bot_token = "5671215128:AAFFx0mWkXcWGzzO5s-elPUrWmm0Iqcwvmw"
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 
 temp = {}
 
 
-kurucu_id = 1924880157
+kurucu_id 5333072972
 
-admins = [kurucu_id, 1924880157]
+admins = [kurucu_id, 5333072972]
 
 zaman_hassasiyeti = pow(10,6)
 
