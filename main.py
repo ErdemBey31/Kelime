@@ -48,7 +48,7 @@ if hex(getnode()) in ["0xdc7b23bb434e"]: #windows masaüstü pc ise veya laptop
     #kaç yaşındasın bot
     print("kyb")
     bot_adi = "İnek Kelime Bot"
-    bot_token = "5671215128:AAFFx0mWkXcWGzzO5s-elPUrWmm0Iqcwvmw"
+    bot_token = "6471607300:AAEDJFcYhf24kjEpaEQkyas0aLu_WFJFT4s"
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 else:
     #sıl kelime bot
