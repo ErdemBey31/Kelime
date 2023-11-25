@@ -52,8 +52,8 @@ if hex(getnode()) in ["0xdc7b23bb434e"]: #windows masaüstü pc ise veya laptop
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 else:
     #sıl kelime bot
-    bot_adi = "İnek Kelime Bot"
-    bot_token = "6137247373:AAGGRs_0NnO99Tx1x09wQ72IkpvANovJH5w"
+    bot_adi = "Türkiye Kelime Bot"
+    bot_token = "6962485095:AAGvhrIq6Lt1y2WcuugbOV-j2L41RhTMCpY"
     bot = AsyncTeleBot(bot_token, parse_mode="html")
 
 temp = {}
